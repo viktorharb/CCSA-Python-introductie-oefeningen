@@ -4,5 +4,6 @@ def maximale_blootstelling(decibel):
     return -1 if verschil < 0 else (8 / (2 ** (verschil // 3)))
 
 
-decibel = int(input())
-print(maximale_blootstelling(decibel))
+if __name__ == "__main__":
+    decibel = int(input())
+    print(maximale_blootstelling(decibel))
